@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | GnomoTech</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Header / Menu -->
+  <header class="bg-gray-800 p-4 flex flex-col md:flex-row justify-between items-center shadow-md">
+    <h1 class="text-2xl font-bold text-green-400 mb-2 md:mb-0">GnomoTech</h1>
+    <nav class="space-x-4">
+      <a href="index.html" class="hover:text-green-400">Home</a>
+      <a href="serviços.html" class="hover:text-green-400">Serviços</a>
+      <a href="sobre.html" class="hover:text-green-400">Sobre</a>
+      <a href="contato.html" class="hover:text-green-400 text-green-400 font-semibold">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Conteúdo da Página -->
+  <section class="py-16 px-6 max-w-4xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-10">Fale com a gente</h2>
+
+    <!-- Formulário de contato -->
+    <form class="bg-gray-800 rounded-xl p-6 shadow-lg space-y-4">
+      <div>
+        <label for="nome" class="block text-sm font-semibold mb-1">Nome</label>
+        <input type="text" id="nome" name="nome" class="w-full px-4 py-2 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-green-400" placeholder="Seu nome">
+      </div>
+
+      <div>
+        <label for="email" class="block text-sm font-semibold mb-1">E-mail</label>
+        <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-green-400" placeholder="seu@email.com">
+      </div>
+
+      <div>
+        <label for="mensagem" class="block text-sm font-semibold mb-1">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="5" class="w-full px-4 py-2 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-green-400" placeholder="Como podemos ajudar?"></textarea>
+      </div>
+
+      <button type="submit" class="bg-green-500 text-black px-6 py-2 rounded hover:bg-green-600 transition">
+        Enviar Mensagem
+      </button>
+    </form>
+
+    <!-- WhatsApp -->
+    <div class="text-center mt-10">
+      <p class="mb-4 text-lg">Prefere falar direto?</p>
+      <a href="https://wa.me/SEU_NUMERO" target="_blank" class="bg-green-500 text-black px-6 py-3 rounded hover:bg-green-600 transition">
+        Falar no WhatsApp
+      </a>
+    </div>
+
+    <!-- YouTube -->
+    <div class="mt-16 text-center">
+      <h3 class="text-2xl font-bold mb-4">Conheça nosso canal no YouTube</h3>
+      <!-- Substitua o link do vídeo abaixo pelo seu -->
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe class="w-full rounded-lg" src="https://www.youtube.com/embed/SEU_VIDEO_ID" title="Canal GnomoTech" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-center p-4 text-sm text-gray-400">
+    © 2025 GnomoTech. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
